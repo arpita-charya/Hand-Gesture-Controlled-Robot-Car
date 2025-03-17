@@ -15,9 +15,6 @@ This project uses an **MPU 6050** accelerometer to control a robot car via hand 
 2. The NANO transmits the commands to the UNO via serial communication.
 3. The UNO controls the motors using the L298N motor driver.
 
-### Folder Structure
-- `Transmitter/`: Code for the NANO (transmitter).
-- `Receiver/`: Code for the UNO (receiver).
 
 ### Usage
 1. Upload the transmitter code to the NANO.
