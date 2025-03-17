@@ -1,0 +1,16 @@
+# Receiver Code for Hand Gesture Controlled Robot Car
+
+This code runs on the **Arduino UNO** and receives motor control commands from the transmitter. It controls the **L298N Motor Driver** to move the robot car.
+
+### Components
+- Arduino UNO
+- L298N Motor Driver
+- DC Motors
+
+### Wiring
+- Connect UNO to the motor driver (IN1, IN2, IN3, IN4, EN1, EN2).
+- Connect the motor driver to the DC motors.
+
+### Usage
+1. Upload the code to the UNO.
+2. Ensure the transmitter is sending commands.
