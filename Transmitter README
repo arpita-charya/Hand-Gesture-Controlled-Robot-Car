@@ -1,0 +1,15 @@
+# Transmitter Code for Hand Gesture Controlled Robot Car
+
+This code runs on the **Arduino NANO** and reads data from the **MPU 6050** accelerometer. It sends motor control commands (`F`, `B`, `L`, `R`, `S`) to the receiver via serial communication.
+
+### Components
+- Arduino NANO
+- MPU 6050 (Accelerometer + Gyroscope)
+
+### Wiring
+- Connect MPU 6050 to NANO using I2C (SDA, SCL).
+- Connect NANO to the receiver (UNO) via serial communication.
+
+### Usage
+1. Upload the code to the NANO.
+2. Ensure the receiver is ready to accept commands.
